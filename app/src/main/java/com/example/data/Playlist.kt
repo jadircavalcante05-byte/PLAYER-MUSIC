@@ -1,0 +1,14 @@
+package com.example.data
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "playlists")
+data class Playlist(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val name: String,
+    val songCount: Int = 0,
+    val coverDrawableRes: Int,
+    val isUserCreated: Boolean = false,
+    val description: String = ""
+)

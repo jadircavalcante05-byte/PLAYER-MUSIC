@@ -1,0 +1,6 @@
+{
+  "name": "Music Player",
+  "description": "Dark-mode music player app featuring Library, Playlists, Tracks, Audio Permissions, and Mini Player.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
